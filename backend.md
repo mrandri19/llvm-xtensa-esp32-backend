@@ -48,6 +48,5 @@ python2 /home/andrea/esp/esp-idf/components/esptool_py/esptool/esptool.py
     - which then is converted into an image by this command:
     - `python2 /home/andrea/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode "dio" --flash_freq "40m" --flash_size "2MB"  -o /home/andrea/esp/hello_world/build/hello-world.bin /home/andrea/esp/hello_world/build/hello-world.elf`
 
-These two don't depend on `hello-world.bin`
-- How to create `bootloader.bin`
-- How to create `partitions_singleapp.bin`
+
+- How to give our own `hello_world_main.o` file to the compilation process
